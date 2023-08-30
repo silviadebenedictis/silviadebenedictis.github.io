@@ -16,7 +16,9 @@ summary: "A web app that my team built to aid college students find study groups
   <img width="200px" src="../img/studdybuddy-1.png" class="img-thumbnail" >
 </div>
 
-Study Buddy is a web application I created with my team to help college students find study groups based on their major or class. It will prompt the user to enter their information, like their college and class, and connect them to study groups. In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. I was in charge of creating the function to get user data, store it in a database, and post it once the user is matched with a group. I linked it to MongoDB, where the info can be stored so that it can print out a confirmation in the next page.
+Study Buddy is a web application I created with my partner to help college students find study groups based on their major or class. It will prompt the user to enter their information, like their college and class, and connect them to study groups. In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. 
+I was in charge of developing back-end, such as creating the functions to get user data, store it in a database, and post it once the user is matched with a group. I linked it to MongoDB, where the info can be stored so that it can print out a confirmation in the next page. I had some difficulty with connecting the MongoDB database locally to python because it was my first time but I successfully managed to get over this obstacle by creating a flowchart and doing each step one at a time. 
+
 
 Here is some code that illustrates how we show study group times:
 
@@ -49,5 +51,7 @@ def results():
         return render_template("results.html", userInfo = userInfo, date= date, time = time, time2 = time2, time3 = time3, time4 = time4, time5 = time5, location = location)
   
 ```
+Source: <a href="https://github.com/silviadebenedictis/StudyBuddy.git">Git Hub RepositoryLink</a>
+
 
 
