@@ -11,7 +11,7 @@ labels:
   - ROS
 summary: "My team devised a way for a mobile robot to quickly learn the physical map for a house so that it is prepared to carry out domestic activities."
 ---
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/botscreen.png">
 <div class="text-center p-4">
   <img width="200px" src="../img/firstplace.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/botscreen.png" class="img-thumbnail" >
