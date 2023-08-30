@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/studybuddy.jpg
 title: "Study Buddy"
 date: 2019
 published: true
