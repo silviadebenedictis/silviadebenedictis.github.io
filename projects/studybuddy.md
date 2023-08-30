@@ -52,7 +52,7 @@ def results():
         return render_template("results.html", userInfo = userInfo, date= date, time = time, time2 = time2, time3 = time3, time4 = time4, time5 = time5, location = location)
   
 ```
-Source: <a href="https://github.com/silviadebenedictis/StudyBuddy.git">Git Hub RepositoryLink</a>
+Source: <a href="https://github.com/silviadebenedictis/StudyBuddy.git">Git Hub Repository</a>
 
 
 
