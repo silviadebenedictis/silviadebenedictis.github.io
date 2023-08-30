@@ -6,9 +6,9 @@ title: "Study Buddy"
 date: 2019
 published: true
 labels:
-  - Website
   - Python
   - MongoDB
+  - Flask
 summary: "A web app that my team built to aid college students find study groups in their campus for specific courses."
 ---
 
