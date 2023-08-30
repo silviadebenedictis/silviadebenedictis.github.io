@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: img/autorobot.jpg
 title: "Auto-Robot Exploration"
 date: 2021
 published: true
@@ -21,4 +21,3 @@ In this project I gained a basic understanding of robot programming and learn ab
 Our team won first place for our Autonomous Robotics Exploration presentation:
 <a href="https://youtu.be/hUV1NlEgusM?si=tpermRQr-GDt5qSC">Autonomous Robot Exploration Presentation Link</a>
 
-Source: <a href="https://youtu.be/hUV1NlEgusM?si=tpermRQr-GDt5qSC">Autonomous Robot Exploration Presentation Link</a>
