@@ -17,6 +17,7 @@ summary: "A web app that my team built to aid college students find study groups
 </div>
 
 Study Buddy is a web application I created with my partner to help college students find study groups based on their major or class. It will prompt the user to enter their information, like their college and class, and connect them to study groups. In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. 
+
 I was in charge of developing back-end, such as creating the functions to get user data, store it in a database, and post it once the user is matched with a group. I linked it to MongoDB, where the info can be stored so that it can print out a confirmation in the next page. I had some difficulty with connecting the MongoDB database locally to python because it was my first time but I successfully managed to get over this obstacle by creating a flowchart and doing each step one at a time. 
 
 
