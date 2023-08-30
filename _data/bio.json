@@ -9,8 +9,8 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/silviadebenedictis" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/silvia-debenedictis" }
+      { "network": "github", "username": "silviadebenedictis", "url": "http://github.com/silviadebenedictis" },
+      { "network": "linkedin", "username": "silviadebenedictis", "url": "http://linkedin.com/in/silvia-debenedictis" }
     ]
   },
   "interests": [
@@ -22,21 +22,21 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Python" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Git/GitHub", "Ubuntu", "g++" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2024)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2022-08-21",
       "endDate": "Present",
-      "courses": [
+      "courses": [ ICS 314, ICS 466, ICS 486
       ]
     }
   ],
