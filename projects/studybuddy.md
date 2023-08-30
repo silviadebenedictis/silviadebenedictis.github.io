@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/studybuddy.jpg
+image: img/studybuddy.png
 title: "Study Buddy"
 date: 2019
 published: true
