@@ -15,7 +15,7 @@
   },
   "interests": [
     { "name": "Programming" },
-    { "name": "Web Developing" },
+    { "name": "Web Design" },
     { "name": "AI" },
     { "name": "Graphic Design" }
   ],
@@ -36,75 +36,80 @@
       "studyType": "B.S.",
       "startDate": "2022-08-21",
       "endDate": "Present",
-      "courses": [ ICS 314, ICS 466, ICS 486
+      "courses": [ 
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa",
+      "position": "Student Office Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-01-09",
       "endDate": "Present",
       "summary": "Head of online presence for Ka Leo",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Arrange appointments, monitor and restock office supplies, and help with administrative tasks",
+        "Responsible for computing and proofreading data such as timesheets, reports, and records. "
+      ]
+    },
+
+    {
+      "company": "Barclays",
+      "position": "Product Intern",
+      "website": "https://home.barclays/",
+      "startDate": "2019-12-08",
+      "endDate": "2020-01-08",
+      "summary": "",
+      "highlights": [
+        "Accomplished in building a web-page with a team of 4 interns",
+        "Developed UI for Barclays Investment bank operations users to submit requests for retrieval of archived historical reports",
+        "Addressed day-to-day challenges related to project with daily meetings with team leads and iterative development. Led the team to discuss the next steps for web-page"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Wells Fargo",
+      "position": "FinTech Focus Intern",
+      "website": "https://fintechfocus.com/",
+      "startDate": "2019-07-15",
+      "endDate": "2019-08-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+        "Followed directions and guidance of senior staff members to understand the fintech ecosystem",
+        "Built web applications and presented final app"
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "ACM Manoa",
+      "website": "https://acmmanoa.org/",
+      "position": "",
+      "startDate": "2023-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "The Association for Computing Machinery",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Attend meetings held by PANDA (Programming AND Algorithms) and SWITCH(Supporting Women in Technology Computing Hawaii)"
       ]
     },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "First Place",
+      "date": "2021",
+      "awarder": "Google",
+      "summary": "My team won first place in the Tri-State ExploreCSR Competition. See my portfolio site for more details."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Alumni Scholarship Recipient",
+      "date": "2019",
+      "awarder": "High School of Fashion Industries",
+      "summary": "Scholarships awarded to high school alumni representing each major."
+    },
+    {
+      "title": "Valedictorian Scholarship",
+      "date": "2019",
+      "awarder": "High School of Fashion Industries",
+      "summary": ""
     }
   ],
   "references": [
