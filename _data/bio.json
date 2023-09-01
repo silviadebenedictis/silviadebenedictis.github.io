@@ -80,19 +80,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "company": "ACM Manoaaaaaaaaaaaaaaaaaaaaa",
-      "website": "https://acmmanoa.org/",
-      "position": "",
-      "startDate": "2023-01-01",
-      "endDate": "Present",
-      "summary": "The Association for Computing Machinery",
-      "highlights": [
-        "Attend meetings held by PANDA (Programming AND Algorithms) and SWITCH(Supporting Women in Technology Computing Hawaii)"
-      ]
-    },
-  ],
   "awards": [
     {
       "title": "First Place",
