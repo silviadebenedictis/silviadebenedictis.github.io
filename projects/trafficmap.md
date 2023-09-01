@@ -7,7 +7,7 @@ date: 2020
 published: true
 labels:
   - Python
-summary: "I developed a program that creates a map with markers for all the traffic collisions from the input file"
+summary: "I developed a program that creates a map with markers for all the traffic collisions from the input file."
 ---
 
 Traffic Map is a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file. It uses collision data collected and made publicly by a state, such as New York City Open Data. I worked on this individually as part of a CS class assignment and got to learn how to write programs that map GIS data using Turtles and Folium packages.
