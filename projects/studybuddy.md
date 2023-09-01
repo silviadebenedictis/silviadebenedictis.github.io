@@ -13,7 +13,7 @@ summary: "A web app that my team built to aid college students find study groups
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/studdybuddy-1.png" class="img-thumbnail" >
+  <img width="300px" src="../img/studdybuddy-1.png" class="img-thumbnail" >
 </div>
 
 Study Buddy is a web application I created with my partner to help college students find study groups based on their major or class. It will prompt the user to enter their information, like their college and class, and connect them to study groups. In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. 
