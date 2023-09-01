@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/traffic.png
+image: img/trafficmap2.png
 title: "Traffic Map"
 date: 2020
 published: true
@@ -10,27 +10,29 @@ labels:
 summary: "I developed a program that creates a map with markers for all the traffic collisions from the input file"
 ---
 
+Traffic Map is a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file. It uses collision data collected and made publicly by a state, such as New York City Open Data. I worked on this individually as part of a CS class assignment and got to learn how to write programs that map GIS data using Turtles and Folium packages.
+
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="300px" src="../img/traffic.png" class="img-thumbnail" >
+  <img width="300px" src="../img/trafficmap3.png" class="img-thumbnail" >
 </div>
 
-Traffic Map is a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file. It uses collision data collected and made publicly by a state, such as New York City Open Data. I worded on this individually as part of my CS class assignment. As I was already familiar with Python, I had 
-
-
-Here is some code that illustrates how we read values from the line sensors:
+Here is a sample of my code:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+import folium
+import pandas as pd
+
+cuny = pd.read_csv('cunyLocations.csv')
+print(cuny["Campus"])
+
+mapCUNY = folium.Map(location=[40.768731, -73.964915])
+for index,row in cuny.iterrows():
+    lat = row["Latitude"]
+    lon = row["Longitude"]
+    name = row["Campus"]
+    newMarker = folium.Marker([lat, lon], popup=name)
+    newMarker.add_to(mapCUNY)
+mapCUNY.save(outfile='cunyLocations.html')
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
