@@ -12,16 +12,16 @@ labels:
 
 ## Where it began
 
-During my childhood years, my family owned an old computer, and I can still vividly remember when it started up and displayed the "Microsoft Windows 2000" logo. I would play around with any application that seemed interesting and press random keys until a large black screen popped up. I found it fascinating how just a few lines of text could alter the computer's files—until I got in trouble for accidentally deleting my mother's document.
+When I was a child, my family owned an old computer, and I can still vividly remember when it started up and displayed the "Microsoft Windows 2000" logo. I would play around with any application that seemed interesting and press random keys until a large black screen popped up. I was amazed at how just a few lines of text could alter the computer's files—until I got in trouble for accidentally deleting my mother's document. Despite the trouble it caused, that experience planted a seed of fascination within me.
 
-Years later, in high school, I discovered that it was the command line and was even more curious about it to the point of taking AP Computer Science. It was my first time coding, and there was always some error or issue whenever I worked on a project, but the satisfaction gained from fixing it was always greater than the disappointment. And that’s where it all began.
+Years later, in high school, I found out that the black screen was the command line. This discovery was only the beginning of my journey into the world of software engineering. In my AP Computer Science class, I faced countless errors and challenges while working on various projects. It was my first time coding and every day there was some new issue, but the satisfaction gained from fixing it was always greater than the disappointment.  It was in these moments of perseverance that my passion for programming truly took root.
 
 
 ## The present
 
-After completing several software engineering-related courses, I’m now interested in web and mobile app design. I feel that it suits my passion the most because, in addition to programming, I enjoy engaging in creative pursuits like graphic design. I have gained experience from collaborating on web application development with my team, working on side projects, and class assignments and would like to take part in hackathons as well.
+Today, I find myself drawn to web and mobile app design. I feel that it suits my passion the most because, in addition to programming, I enjoy creative hobbies like digital art or graphic design. My journey so far has been shaped by collaborating on web application development with my peers, working on side projects, and completing class assignments. I am eager to take my skills to the next level by participating in hackathons as well.
+
 
 ## Where it will go
 
-In the future, I hope to enhance my programming skills. Despite having worked on many projects already, I tend to become too accustomed to using one programming language and then struggle when transitioning to another. I want to solidify my grasp of the fundamentals and become proficient in working on diverse projects. Most importantly, I aspire to successfully deploy my final project by the end of this semester and present it proudly to others.
-
+In the future, I hope to enhance my programming skills. Despite having worked on many projects already, I tend to become too accustomed to using one programming language and then struggle when transitioning to another. I want to solidify my grasp of the fundamentals and become proficient in working on diverse projects. Most importantly, I want to be able to successfully deploy my final project by the end of this semester and present it proudly to others.
