@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "How To Not Be Left On Read - Coders edition"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-06
 published: true
@@ -63,11 +63,8 @@ How to change values in lower triangular of matrix in julia and transform to upp
 
 There are no other details, examples or snippets of code included. The questioner clearly did not bother researching beforehand or trying before getting an error, leaving the commenters confused. 
 
-<img width="300px" class="rounded float-start pe-4" src="../img/not-smart-q.png">
+<img width="700px" class="rounded float-start pe-4" src="../img/not-smart-q.png">
 
-<div class="text-center p-4">
-  <img width="300px" src="../img/not-smart-q.png" class="img-thumbnail" >
-</div> 
 Source: <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
 
 Furthermore, considering the question was posted four years ago with only one person “attempting” to answer it, it’s evident that it’s a less-than-ideal example of a smart question.
