@@ -67,7 +67,7 @@ There are no other details, examples or snippets of code included. The questione
 
 
 
-### *Source:* <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
+*Source:* <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
 
 
 Furthermore, considering the question was posted four years ago with only one person “attempting” to answer it, it’s evident that it’s a less-than-ideal example of a smart question. Questions like these deter people from interacting with the post because of how much time it would take for them to understand it. 
