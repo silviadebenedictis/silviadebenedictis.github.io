@@ -11,15 +11,15 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/smrt.png">
 
 ## The Power of Questions
 
-In my very first computer science class, I remember my professor saying that there was no such thing as a “dumb” question. He consistently encouraged our class to ask any questions, no matter how seemingly simple, not only because someone else might have been wondering the same thing but also because it's more beneficial than pretending to know the answer. Nevertheless, once we step outside the classroom, encountering such a patient professor becomes unlikely. So, how exactly do we navigate our challenges? In scenarios like this, mastering the art of asking smart questions, whether online or in person, becomes crucial as it empowers us to identify and resolve problems more effectively.
+In my very first computer science class, I remember my professor saying that there was no such thing as a “dumb” question. He consistently encouraged our class to ask any questions, no matter how seemingly simple, not only because someone else might have been wondering the same thing but also because it's more beneficial than pretending to know the answer. However, once we step outside the classroom, encountering such a patient professor to help us becomes very unlikely. So, how exactly do we navigate our challenges? In scenarios like this, mastering the art of asking smart questions, whether online or in person, becomes crucial as it empowers us to identify and resolve problems more effectively.
 
 ## “Smart” Questions
 
-So what makes a question “smart”? They are characterized by several key attributes, but the most important ones are that they are clear, concise, and specific. A good example of this is a question on Stack Overflow whose subject header is <a href="https://stackoverflow.com/questions/31453495/how-to-read-appsettings-values-from-a-json-file-in-asp-net-core">“How to read AppSettings values from a .json file in ASP.NET Core”</a>. The questioner starts off by showing how they set up their AppSettings data in a specific file.
+So what makes questions “smart”? They are characterized by several key attributes, but the most important ones are that they are clear, concise, and specific. A good example of this is a question on Stack Overflow whose subject header is <a href="https://stackoverflow.com/questions/31453495/how-to-read-appsettings-values-from-a-json-file-in-asp-net-core">“How to read AppSettings values from a .json file in ASP.NET Core”</a>. The questioner starts off by showing how they set up their AppSettings data in a specific file.
 
 ```
 I have set up my AppSettings data in file appsettings/Config .json like this:
@@ -49,7 +49,7 @@ But how do I do this in ASP.NET Core?
 
 ```
 
-This question is considered 'smart' because it exhibits key attributes: clarity, conciseness, specificity, and a demonstration of prior research. The asker's effort to understand the topic and seek advanced information is evident.  As a result, several people gave answers that provided a solution or explained the process of getting it.
+This question is considered 'smart' because it exhibits key attributes: clarity, conciseness, specificity, and a demonstration of prior research. The asker's effort to understand the topic and seek advanced information is evident.  As a result, several people gave answers that either provided a solution or explained the process of getting it.
 
 
 ##  “Not So Smart” Questions
@@ -61,15 +61,14 @@ How to change values in lower triangular of matrix in julia and transform to upp
 
 ```
 
-There are no other details, examples or snippets of code included. The questioner clearly did not bother researching beforehand or trying before getting an error, leaving the commenters confused. 
+There are no other details, examples or snippets of code included. The questioner clearly did not bother researching beforehand or trying their own code before getting an error, leaving the commenters confused. 
 
-<img width="700px" class="rounded float-start pe-4" src="../img/not-smart-q.png">
+<img width="800px" class="rounded float-start pe-4" src="../img/not-smart-q.png">
 
-Source: <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
+*Source:* <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
 
-Furthermore, considering the question was posted four years ago with only one person “attempting” to answer it, it’s evident that it’s a less-than-ideal example of a smart question.
-
+Furthermore, considering the question was posted four years ago with only one person “attempting” to answer it, it’s evident that it’s a less-than-ideal example of a smart question. Questions like these deter people from interacting with the post because of how much time it would take for them to understand it.
 
 ## Conclusion
 
-When we.....
+To summarize, while there is no such thing as a dumb question, there are indeed questions that can be a waste of time and effort. Part of a software engineer’s job is to communicate their thoughts and ideas well, and this includes asking questions too. Learning how to ask questions skillfully not only demonstrates your ability to communicate but also serves as a time-saving tool. 
