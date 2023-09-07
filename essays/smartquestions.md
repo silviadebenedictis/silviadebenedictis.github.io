@@ -65,6 +65,8 @@ There are no other details, examples or snippets of code included. The questione
 
 <img width="800px" class="rounded float-start pe-4" src="../img/not-smart-q.png">
 
+
+
 *Source:* <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a>
 
 
