@@ -15,7 +15,7 @@ labels:
 
 ## The Power of Questions
 
-In my very first computer science class, I remember my professor saying that there was no such thing as a “dumb” question. He consistently encouraged our class to ask any questions, no matter how seemingly simple, not only because someone else might have been wondering the same thing but also because it's more beneficial than pretending to know the answer. However, once we step outside the classroom, encountering such a patient professor to help us becomes very unlikely. So, how exactly do we navigate our challenges? In scenarios like this, mastering the art of asking smart questions, whether online or in person, becomes crucial as it empowers us to identify and resolve problems more effectively.
+In my very first computer science class, I remember my professor saying that there was no such thing as a “dumb” question. He consistently encouraged our class to ask any questions, no matter how seemingly simple, not only because someone else might have been wondering the same thing but also because it's more beneficial than pretending to know the answer. However, it's very unlikely that we will encounter such a patient professor once we step outside the classroom. So, how exactly do we navigate through our challenges? In scenarios like this, mastering the art of asking smart questions, whether online or in person, becomes crucial as it helps us to identify and resolve problems more effectively.
 
 ## “Smart” Questions
 
