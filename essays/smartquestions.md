@@ -72,4 +72,4 @@ Furthermore, considering the question was posted four years ago with only one pe
 
 ## Conclusion
 
-To summarize, while there is no such thing as a dumb question, there are indeed questions that can be a waste of time and effort. Part of a software engineer’s job is to communicate their thoughts and ideas well, and this includes asking questions too. Learning how to ask questions skillfully not only demonstrates your ability to communicate but also serves as a time-saving tool. 
+To summarize, while there is no such thing as a dumb question, there are indeed questions that can be a waste of time and effort. Part of a software engineer’s job is to communicate their thoughts and ideas well, and this includes asking questions too. Learning how to ask questions skillfully not only demonstrates your ability to communicate but also serves as a time-saving tool, where someone will actually answer you. 
