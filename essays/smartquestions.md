@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "How To Not Be Left On Read - Coders edition"
+title: "How To Not Be Left On Read - Coders Edition"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-06
 published: true
