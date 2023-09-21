@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
+<img width="800px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
 
 ## A Lesson Learned
 
@@ -21,7 +21,7 @@ On many occasions, I find myself stuck on a coding project for hours. There are 
 
 Most of the computer science courses that I took had their own style guide that we had to adhere to. For example, in ICS 212, curly brackets needed to have a line of their own, and instead of using the tab key to indent, we had to add four spaces. Meanwhile, in another course, there were stricter rules regarding variable naming, spacing, and even comments. It was frustrating how style guides are not set in stone, and they vary from one course to another and even within organizations. However, when I first started using ESLint, my first impression of it was that it’s like a grammar checker specially made for software engineers. It's simple and efficient, providing us with user-friendly icons like the X mark. Despite the fact that it throws warnings for simple things like spacing, I like how hovering over the red squiggly lines under a code immediately tells me the errors or how to improve the line. It felt like a reliable autocorrect, and there was a sense of satisfaction from seeing the green checkmark, assuring me that my code will at least run.
 
-<img width="200px" class="rounded float-start pe-4" src="../img/styleguide.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/styleguide.png">
 
  
 ## Conclusion
