@@ -22,7 +22,7 @@ On many occasions, I find myself stuck on a coding project for hours. There are 
 Most of the computer science courses that I took had their own style guide that we had to adhere to. For example, in ICS 212, curly brackets needed to have a line of their own, and instead of using the tab key to indent, we had to add four spaces. Meanwhile, in another course, there were stricter rules regarding variable naming, spacing, and even comments. It was frustrating how style guides are not set in stone, and they vary from one course to another and even within organizations. However, when I first started using ESLint, my first impression of it was that it’s like a grammar checker specially made for software engineers. It's simple and efficient, providing us with user-friendly icons like the X mark. Despite the fact that it throws warnings for simple things like spacing, I like how hovering over the red squiggly lines under a code immediately tells me the errors or how to improve the line. It felt like a reliable autocorrect, and there was a sense of satisfaction from seeing the green checkmark, assuring me that my code will at least run.
 
 <div class="text-center p-4">
-  <img width="700px" class="rounded float-start pe-4" src="../img/styleguide.png">
+  <img width="700px" src="../img/styleguide.png">
 </div>
 
 The image above is a sample of syntax rules I had to follow when I worked on a team project in class. From proper indentation to consistent spacing, there were several critical aspects to be vigilant about. It's during moments like these that the true value of a reliable code analysis tool becomes evident as it saves valuable time.
