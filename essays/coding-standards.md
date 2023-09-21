@@ -14,7 +14,7 @@ labels:
 
 ## A Lesson Learned
 
-On many occasions, I find myself stuck on a coding project for hours. There are even times when I'm stuck on it for up to two to three days, all because of compilation errors. In the process of being stuck, I go through my messy code several times, run it repeatedly, only to find out that the cause of my error is a missing closing parenthesis. Most of the wasted time could have been avoided if I had followed coding standards because, although it's a minor thing, they are helpful in writing cleaner and more efficient code. Following these guidelines not only makes the code easier to read but also simplifies the process of identifying and fixing bugs.
+On many occasions, I find myself stuck on a coding project for hours. There are even times when I need to work on it for up to two to three days, all because of compilation errors. In the midst of this frustrating ordeal, I go through my messy code several times, run it repeatedly, only to find out that the cause of my error is a missing closing parenthesis. The extensive time wasted on such issues could have easily been avoided had I followed a coding standard. While seemingly minor, these standards play a crucial role in producing cleaner and more efficient code. They not only enhance code readability but also simplify the process of identifying and fixing bugs.
 
 
 ## A Tale of Varied Styles
@@ -23,7 +23,8 @@ Most of the computer science courses that I took had their own style guide that 
 
 <img width="500px" class="rounded float-start pe-4" src="../img/styleguide.png">
 
- 
+The image above is a sample of syntax rules I had to follow when I worked on a team project in class. From proper indentation to consistent spacing, there were several critical aspects to be vigilant about. It's during moments like these that the true value of a reliable code analysis tool becomes evident as it saves valuable time.
+
 ## Conclusion
 
 Overall, coding standards will differ from place to place, whether you're working in a team or individually. However, it's important to conform to a style guide because it saves time when looking for bugs and removes unneeded guesswork. So, the next time I'm stuck on a project, I will use a reliable code analysis tool like ESLint to conquer the problem.
