@@ -10,7 +10,9 @@ labels:
   - Software Engineering
 ---
 
-<img width="700px" src="../img/codestyle.jpg">
+<div class="text-center p-4">
+  <img width="700px" src="../img/codestyle.jpg">
+</div>
 
 ## A Lesson Learned
 
@@ -29,4 +31,4 @@ The image above is a sample of syntax rules I had to follow when I worked on a t
 
 ## Conclusion
 
-Overall, coding standards will differ from place to place, whether you're working in a team or individually. However, it's important to conform to a style guide because it saves time when looking for bugs and removes unneeded guesswork. So, the next time I'm stuck on a project, I have a reliable ally in the form of code analysis tools like ESLint. These tools not only uphold coding standards but also provide real-time feedback, making problem-solving a smoother and more efficient process. Embracing coding standards isn't just a good practice; it's a key to unlocking a world of cleaner, more efficient, and less error-prone code.
+Overall, coding standards will differ from place to place, whether you're working in a team or individually. However, it's important to conform to a style guide because it saves time when looking for bugs and removes unneeded guesswork. So, the next time I'm stuck on a project, I have a reliable ally in the form of code analysis tools like ESLint. These tools not only uphold coding standards but also provide real-time feedback, making problem-solving a less challenging process. Embracing coding standards isn't just a good practice; it's a key to unlocking a world of cleaner, more efficient, and less error-prone code.
