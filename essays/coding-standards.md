@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="700px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
+<img width="600px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
 
 ## A Lesson Learned
 
