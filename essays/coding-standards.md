@@ -7,9 +7,10 @@ date: 2023-09-20
 published: true
 labels:
   - Style Guide
+  - Software Engineering
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/codestyle.jpg">
 
 ## A Lesson Learned
 
