@@ -10,7 +10,7 @@ labels:
   - Goals
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/laptop.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/laptop.jpeg">
 
 ## Where it began
 
