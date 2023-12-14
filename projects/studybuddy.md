@@ -14,8 +14,10 @@ summary: "A web app that my team built to aid college students find study groups
 
 <img width="400px" class="rounded float-start pe-4" src="../img/studdybuddy-1.png">
 
+## Overview 
 Study Buddy is a web application I created with my partner to help college students find study groups based on their major or class. In the homepage of the website, it will prompt the user to enter their information, like their college and class. Once all of the information is entered it will take them to a page where they can select study groups based on meeting times. The last page will then create a "ticket" or confirmation receipt of their study group location and dates. 
 
+## Contributions & Challenges
 In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. I was in charge of developing back-end services, such as creating the functions to get user data, store it in a database, and post it once the user is matched with a group. I linked it to MongoDB, where the information can be stored so that it can print out a confirmation in the next page. I had some difficulty with connecting the MongoDB database locally to Python because it was my first time, but I successfully managed to get over this obstacle by diligently researching online tutorials and seeking guidance from experienced developers.
 
 Here is some code that illustrates how we show study group times:
