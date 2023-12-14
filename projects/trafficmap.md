@@ -9,7 +9,7 @@ labels:
   - Python
 summary: "I developed a program that creates a map with markers for all the traffic collisions from the input file."
 ---
- ## Overview
+## Overview
 Introducing Traffic Map, your trusted ally in bypassing traffic congestion and reaching your destination with ease. Often times, local drivers or daily commuters who don't use GPS navigators get stuck in traffic because they were not aware of it. Traffic Map is a program that helps users plan their routes strategically, steer clear of traffic-prone areas, and enjoy smoother journeys. 
 
 ## Takeaways
