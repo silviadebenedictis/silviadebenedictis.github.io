@@ -16,7 +16,7 @@ summary: "A web application providing helpful information on good facilities aro
 ---
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/rmf-home.png">
+  <img width="700px" src="../img/rmf-home.png">
 </div>
 
 ## Overview
@@ -28,8 +28,8 @@ Many people on campus struggle with finding facilities they are satisfied with. 
 My role was to design the logo for our site and draft both the Buildings and Add Facility pages. The Buildings page provides a list of UH Manoa buildings with information on how many facilities they have, such as number of restrooms and water filters. After our first milestone, which was to mainly create mockup pages, I implemented the Add Facility page so that logged users can add a new facility by specifying the type of facility, the building where the facility is found, the floor number, and photos of the facility. Once they submit the information, it gets stored in our database. Other contributions include creating and using a testing framework, called TestCafe, to test for the Add Review page and also constantly updating our Github homepage for each milestone. 
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/rmf-addfacility.png" class="img-thumbnail" >
-  <img width="200px" src="../img/rmf-buildings.png" class="img-thumbnail" >
+  <img width="500px" src="../img/rmf-addfacility.png" class="img-thumbnail" >
+  <img width="500px" src="../img/rmf-buildings.png" class="img-thumbnail" >
 </div>
 
 ## Main Takeaways
