@@ -10,6 +10,8 @@ labels:
   - Goals
 ---
 
+<img width="500px" class="rounded float-start pe-4" src="../img/laptop.jpg">
+
 ## Where it began
 
 When I was a child, my family owned an old computer, and I can still vividly remember when it started up and displayed the "Microsoft Windows 2000" logo. I would play around with any application that seemed interesting and press random keys until a large black screen popped up. I was amazed at how just a few lines of text could alter the computer's files—until I got in trouble for accidentally deleting my mother's document. Despite the trouble it caused, that experience planted a seed of fascination within me.
