@@ -22,11 +22,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python" ]
+      "keywords": [ "C", "C++", "Python", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub", "Ubuntu", "g++" ]
+      "keywords": [ "Windows", "Git/GitHub", "Ubuntu", "g++", "Unity"]
     }
   ],
   "education": [
