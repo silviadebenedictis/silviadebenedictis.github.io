@@ -38,6 +38,6 @@ An important concept I got to learn from this project is a style of Agile Projec
 
 This project also strengthened my knowledge on Javascript. Not only did I gain more experience creating form validations but I also got to learn how to fetch and manipulate data from our collections, which solidified my understanding of Javascript.
 
-* Source code can be found in our [Organization GitHub Page](https://github.com/d-facilitators).
+* Source code can be found on our [Organization GitHub Page](https://github.com/d-facilitators).
 
-* More information can be found in our [Homepage](https://d-facilitators.github.io/).
+* More information can be found on our [Homepage](https://d-facilitators.github.io/).
