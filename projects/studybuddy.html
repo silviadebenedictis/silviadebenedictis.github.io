@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Study Buddy | Silvia De Benedictis | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/53053458?v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Silvia De Benedictis | Professional Portfolio">
+    <meta property="og:url" content="https://silviadebenedictis.github.io/projects/studybuddy.html">
+    <meta property="og:title" content="Study Buddy | Silvia De Benedictis | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/53053458?v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Study Buddy | Silvia De Benedictis | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Silvia De Benedictis</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Study Buddy</h1>
+ <p><img width="400px" class="rounded float-start pe-4" src="../img/studdybuddy-1.png" /></p>
+
+<h2 id="overview">Overview</h2>
+<p>Study Buddy is a web application I created with my partner to help college students find study groups based on their major or class. In the homepage of the website, it will prompt the user to enter their information, like their college and class. Once all of the information is entered it will take them to a page where they can select study groups based on meeting times. The last page will then create a “ticket” or confirmation receipt of their study group location and dates.</p>
+
+<h2 id="contributions--challenges">Contributions &amp; Challenges</h2>
+<p>In order to develop the web app, we used Flask to provide us with the tools and libraries we needed. I was in charge of developing back-end services, such as creating the functions to get user data, store it in a database, and post it once the user is matched with a group. I linked it to MongoDB, where the information can be stored so that it can print out a confirmation in the next page. I had some difficulty with connecting the MongoDB database locally to Python because it was my first time, but I successfully managed to get over this obstacle by diligently researching online tutorials and seeking guidance from experienced developers.</p>
+
+<p>Here is some code that illustrates how we show study group times:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="err">'</span><span class="o">/</span><span class="n">results</span><span class="err">'</span><span class="p">,</span> <span class="n">methods</span> <span class="o">=</span> <span class="p">[</span><span class="err">'</span><span class="n">GET</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">POST</span><span class="err">'</span><span class="p">])</span>
+<span class="n">def</span> <span class="n">results</span><span class="p">()</span><span class="o">:</span>
+    <span class="k">if</span> <span class="n">request</span><span class="p">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">"GET"</span><span class="o">:</span>
+        <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="err">'</span><span class="n">index</span><span class="p">.</span><span class="n">html</span><span class="err">'</span><span class="p">)</span>
+    <span class="k">else</span><span class="o">:</span>
+        <span class="n">name_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">name</span><span class="err">'</span><span class="p">]</span> 
+        <span class="n">college_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">college</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">email_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">email</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">major_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">major</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">course_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">course</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">classes_name</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">form</span><span class="p">[</span><span class="err">'</span><span class="n">classes</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">print</span><span class="p">(</span><span class="err">'</span><span class="n">name</span><span class="err">'</span><span class="p">)</span>
+
+        <span class="n">callcourse</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="n">college_name</span><span class="p">,</span><span class="n">course_name</span><span class="p">)</span>
+        <span class="n">date</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">date</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">time</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">time</span><span class="err">'</span><span class="p">]</span> 
+        <span class="n">time2</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">time2</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">time3</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">time3</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">time4</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">time4</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">time5</span> <span class="o">=</span> <span class="n">callcourse</span><span class="p">[</span><span class="err">'</span><span class="n">time5</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">location</span> <span class="o">=</span> <span class="n">callcourse</span> <span class="p">[</span><span class="err">'</span><span class="n">location</span><span class="err">'</span><span class="p">]</span>
+        <span class="n">print</span><span class="p">(</span><span class="n">callcourse</span><span class="p">)</span>
+        <span class="n">collection</span> <span class="o">=</span> <span class="n">mongo</span><span class="p">.</span><span class="n">db</span><span class="p">.</span><span class="n">Form</span>
+        <span class="n">collection</span><span class="p">.</span><span class="n">insert</span><span class="p">({</span><span class="err">'</span><span class="n">name</span><span class="err">'</span><span class="o">:</span> <span class="n">name_name</span><span class="p">,</span> <span class="err">'</span><span class="n">college</span><span class="err">'</span><span class="o">:</span> <span class="n">college_name</span><span class="p">,</span> <span class="err">'</span><span class="n">email</span><span class="err">'</span><span class="o">:</span><span class="n">email_name</span><span class="p">,</span> <span class="err">'</span><span class="n">major</span><span class="err">'</span><span class="o">:</span> <span class="n">major_name</span><span class="p">,</span> <span class="err">'</span><span class="n">course</span><span class="err">'</span><span class="o">:</span> <span class="n">course_name</span><span class="p">,</span> <span class="err">'</span><span class="n">classes</span><span class="err">'</span><span class="o">:</span> <span class="n">classes_name</span><span class="p">})</span>
+        <span class="n">userInfo</span> <span class="o">=</span> <span class="n">collection</span><span class="p">.</span><span class="n">find_one</span><span class="p">({</span><span class="s">"name"</span> <span class="o">:</span> <span class="n">name_name</span><span class="p">})</span>
+        <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">"results.html"</span><span class="p">,</span> <span class="n">userInfo</span> <span class="o">=</span> <span class="n">userInfo</span><span class="p">,</span> <span class="n">date</span><span class="o">=</span> <span class="n">date</span><span class="p">,</span> <span class="n">time</span> <span class="o">=</span> <span class="n">time</span><span class="p">,</span> <span class="n">time2</span> <span class="o">=</span> <span class="n">time2</span><span class="p">,</span> <span class="n">time3</span> <span class="o">=</span> <span class="n">time3</span><span class="p">,</span> <span class="n">time4</span> <span class="o">=</span> <span class="n">time4</span><span class="p">,</span> <span class="n">time5</span> <span class="o">=</span> <span class="n">time5</span><span class="p">,</span> <span class="n">location</span> <span class="o">=</span> <span class="n">location</span><span class="p">)</span>
+  
+</code></pre></div></div>
+<p>Source: <a href="https://github.com/silviadebenedictis/StudyBuddy.git">Github Repository</a></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
