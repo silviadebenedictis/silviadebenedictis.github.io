@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "A Site to Remember"
 # All dates must be YYYY-MM-DD format!
-date: 2024-05-04
+date: 2024-05-07
 published: true
 labels:
   - Software Engineering
