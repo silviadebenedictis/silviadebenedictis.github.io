@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/team-meeting.jpg">
+  <img width="400px" src="../img/team-meeting.jpg">
 </div>
 
 ## Overview
