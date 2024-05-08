@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="How to Not Be Left On Read - Coders Edition | Silvia De Benedictis | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/53053458?v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Silvia De Benedictis | Professional Portfolio">
+    <meta property="og:url" content="https://silviadebenedictis.github.io/essays/smartquestions.html">
+    <meta property="og:title" content="How to Not Be Left On Read - Coders Edition | Silvia De Benedictis | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/53053458?v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>How to Not Be Left On Read - Coders Edition | Silvia De Benedictis | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Silvia De Benedictis</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">How to Not Be Left On Read - Coders Edition</h1>
+  <span class="date">06 Sep 2023</span>
+  <hr>
+  <p><img width="300px" class="rounded float-start pe-4" src="../img/smrt.png" /></p>
+
+<h2 id="the-power-of-questions">The Power of Questions</h2>
+
+<p>In my very first computer science class, I remember my professor saying that there was no such thing as a “dumb” question. He consistently encouraged our class to ask any questions, no matter how seemingly simple, not only because someone else might have been wondering the same thing but also because it’s more beneficial than pretending to know the answer. However, it’s very unlikely that we will encounter such a patient professor once we step outside the classroom. So, how exactly do we navigate through our challenges? In scenarios like this, mastering the art of asking smart questions, whether online or in person, becomes crucial as it helps us to identify and resolve problems more effectively.</p>
+
+<h2 id="smart-questions">“Smart” Questions</h2>
+
+<p>So what makes questions “smart”? They are characterized by several key attributes, but the most important ones are that they are clear, concise, and specific. A good example of this is a question on Stack Overflow whose subject header is <a href="https://stackoverflow.com/questions/31453495/how-to-read-appsettings-values-from-a-json-file-in-asp-net-core">“How to read AppSettings values from a .json file in ASP.NET Core”</a>. The questioner starts off by showing how they set up their AppSettings data in a specific file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I have set up my AppSettings data in file appsettings/Config .json like this:
+{
+  "AppSettings": {
+        "token": "1234"
+    }
+}
+</code></pre></div></div>
+
+<p>They then mention how they searched the question online and could not find anything useful while also showing a snippet of what they tried to solve the problem:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var configuration = new Configuration();
+var appSettings = configuration.Get("AppSettings"); // null
+var token = configuration.Get("token"); // null
+
+</code></pre></div></div>
+
+<p>They conclude by asking how to specifically read their data from a .json file in ASP.NET Core:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I know with ASP.NET 4.0 you can do this:
+
+System.Configuration.ConfigurationManager.AppSettings["token"];
+
+But how do I do this in ASP.NET Core?
+
+</code></pre></div></div>
+
+<p>This question is considered ‘smart’ because it exhibits key attributes: clarity, conciseness, specificity, and a demonstration of prior research. The asker’s effort to understand the topic and seek advanced information is evident.  As a result, several people gave answers that either provided a solution or explained the process of getting it.</p>
+
+<h2 id="not-so-smart-questions">“Not So Smart” Questions</h2>
+
+<p>Now that we’ve looked at what a “smart” question could look like, let’s see an example of the opposite of one. A user on Stack Overflow asks this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>How to change values in lower triangular of matrix in julia and transform to upper triangular? I need help with homework
+
+</code></pre></div></div>
+
+<p>There are no other details, examples or snippets of code included. The questioner clearly did not bother researching beforehand or trying their own code before getting an error, leaving the commenters confused.</p>
+
+<p><img width="900px" src="../img/not-smart-q.png" /></p>
+
+<p><em>Source:</em> <a href="https://stackoverflow.com/questions/58611887/how-to-change-values-in-lower-triangular-of-matrix-in-julia-and-transform-to-upp">“How to change values in lower triangular of matrix in julia and transform to upper triangular?”</a></p>
+
+<p>Furthermore, considering the question was posted four years ago with only one person “attempting” to answer it, it’s evident that it’s a less-than-ideal example of a smart question. Questions like these deter people from interacting with the post because of how much time it would take for them to understand it.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>To summarize, while there is no such thing as a dumb question, there are indeed questions that can be considered a waste of time and effort. Part of a software engineer’s job is to properly communicate their thoughts and ideas, and this includes asking well-thought-out questions too. Learning how to ask questions skillfully demonstrates your ability to communicate and also serves as a time-saving tool, where someone will actually answer you on time instead of leaving you on read.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
