@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "ICS 414 Experience"
+title: "A Site to Remember"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-04
 published: true
