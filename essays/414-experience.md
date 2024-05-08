@@ -10,7 +10,7 @@ labels:
   - IDPM
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/team-meeting.jpg">
+<img width="500px" src="../img/team-meeting.jpg">
 
 ## Overview
 Many volunteers often want to help more in their communities but can't find suitable opportunities or struggle with receiving responses after applying. This semester, I was fortunate to be part of a project aimed at addressing these issues. Our team developed a web application, Voluntree, designed to facilitate the process of finding and engaging in volunteer opportunities. This project enhanced my technical skills and also offered valuable insights into team collaboration and project management.
@@ -23,7 +23,7 @@ As part of the Voluntree project team, I mainly contributed to the front-end dev
 -  Footer Design: I crafted a responsive and informative footer for the website, enhancing the overall aesthetic and usability.
 -  Test Integration: I implemented various tests to ensure that new features functioned correctly and did not break existing functionality.
 These contributions were crucial in making Voluntree a platform that meets the needs of both volunteers and organizations.
-<img width="600px" src="../img/find-opportunities.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/find-opportunities.png">
 
 
 ## Main Takeaways
@@ -33,3 +33,4 @@ The project solidified several important skills, notably in team collaboration a
 
 ## Conclusion
 Reflecting on my experience in ICS 414, I am immensely proud of what we achieved with Voluntree. This semester was not just about developing a web application; it was about creating a tool that could genuinely make a difference in the community. The technical skills and teamwork strategies I've developed will undoubtedly serve me well in my future endeavors in the field of information and computer sciences.
+
