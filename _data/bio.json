@@ -6,7 +6,7 @@
     "email": "silviadb@hawaii.edu",
     "phone": "",
     "website": "https://silviadebenedictis.github.io/",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Summer, 2024.",
+    "summary": "I am studying for a Masters in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "silviadebenedictis", "url": "http://github.com/silviadebenedictis" },
@@ -16,13 +16,14 @@
   "interests": [
     { "name": "Programming" },
     { "name": "Web Design" },
+    { "name": "Game Design" },
     { "name": "AI" },
     { "name": "Graphic Design" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python", "Javascript" ]
+      "keywords": [ "C", "C++", "Python", "Javascript", "C#"]
     },
     {
       "name": "Toolsets/OS",
@@ -32,10 +33,19 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Summer, 2024)",
+      "area": "Computer Science (expected Spring, 2026)",
+      "studyType": "Masters",
+      "startDate": "2024-08-16",
+      "endDate": "Present",
+      "courses": [ 
+      ]
+    },
+     {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science",
       "studyType": "B.A.",
       "startDate": "2022-08-21",
-      "endDate": "Present",
+      "endDate": "2024-05-11",
       "courses": [ 
       ]
     }
